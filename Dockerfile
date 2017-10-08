@@ -8,7 +8,6 @@ RUN /opt/ds/bin/pip install --upgrade numpy
 RUN /opt/ds/bin/pip install --upgrade jupyter scipy pandas matplotlib scikit-learn
 RUN /opt/ds/bin/pip install git+https://github.com/pymc-devs/pymc3
 RUN /opt/ds/bin/pip install PyWavelets
-RUN apt-get install -y texlive texlive-latex-extra pandoc
 
 WORKDIR /home/ds/notebooks
 
